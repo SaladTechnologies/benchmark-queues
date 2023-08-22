@@ -1,11 +1,11 @@
 {
-  "name": "benchmark-put-and-get-work",
-  "version": "1.0.0",
+  "author": "",
   "description": "",
+  "license": "MIT",
   "main": "index.js",
+  "name": "benchmark-put-and-get-work",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "UNLICENSED"
+  "version": "1.0.0"
 }
