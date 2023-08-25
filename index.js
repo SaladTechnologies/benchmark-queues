@@ -156,7 +156,7 @@ export const handler = async (event) => {
       return {
         statusCode: 200,
         body: JSON.stringify({
-          status: getMessageCommand.Messages && getMessageCommand.Messages.length > 0 ? 'Messages Found' : 'No Messages Found',
+          status: getMessageResponse.Messages && getMessageResponse.Messages.length > 0 ? 'Messages Found' : 'No Messages Found',
           messages: (getMessageResponse.Messages || []).map((message) => ({
             messageId: message.ReceiptHandle,
             body: message.Body,
